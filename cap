@@ -1,1 +1,27 @@
+# Configuration for ML Pipeline Deployment
+
+# Define project settings
+PROJECT_NAME: "ML Dummy Project"
+VERSION: "1.0.0"
+
+# Model details
+MODEL_TYPE: "Random Forest"
+MODEL_VERSION: "v1.2"
+
+# Training configuration
+EPOCHS: 50
+BATCH_SIZE: 32
+LEARNING_RATE: 0.001
+
+# Deployment environment
+ENVIRONMENT: "Production"
+DEPLOYMENT_REGION: "us-west-1"
+
+# Data sources
+TRAINING_DATA: "s3://dummy-dataset/training.csv"
+VALIDATION_DATA: "s3://dummy-dataset/validation.csv"
+
+# Monitoring settings
+MONITORING_ENABLED: true
+LOG_LEVEL: "INFO"
 
